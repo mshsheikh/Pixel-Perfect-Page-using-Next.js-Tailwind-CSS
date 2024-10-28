@@ -60,7 +60,8 @@ export default function Home() {
                               px-4
                               py-2
                               rounded
-                              text-[14px]">
+                              text-[14px]
+                            hover:bg-[#5b5f62]">
               JOIN US
             </button>
 
@@ -97,21 +98,24 @@ export default function Home() {
                         mt-4 max-w-[90%]
                         sm:max-w-[80%]
                         md:max-w-[542px]
+                        pt-4
                         mx-auto
                         leading-[1.6]">
             We know how large objects will act, but things on a small scale just do not act that way.
           </p>
 
           <div className="flex
-                          space-x-4
+                          space-x-3.5
                           mt-8
                           justify-center
-                          items-center">
+                          items-center
+                          pt-3.5">
 
             <button className="bg-[#35A6F0]
                               text-white
                               px-11 py-4
-                              rounded">
+                              rounded
+                              hover:bg-[#5b5f62]">
                               Get Quote Now
             </button>
 
@@ -120,7 +124,10 @@ export default function Home() {
                               text-[#35A6F0]
                               px-10
                               py-4
-                              rounded">
+                              rounded
+                            hover:bg-[#5b5f62]
+                            hover:border-[#ffffff]
+                            hover:text-[#ffffff]">
             Learn More
             </button>
           </div>
@@ -142,19 +149,22 @@ export default function Home() {
                           w-full
                           sm:w-[280px]
                           md:w-[300px]
-                          lg:w-[328px]">
+                          lg:w-[328px]
+                          cursor-pointer">
         
             <div className="w-16
                             h-16
                             rounded-xl
                             bg-[#FFDCD1]
                             mx-start
-                            mb-4">
+                            mb-4
+                            cursor-pointer">
             </div>
 
             <h2 className="font-bold
                           text-start
-                          mt-4">
+                          mt-4
+                          cursor-pointer">
             Training Courses
             </h2>
 
@@ -162,10 +172,13 @@ export default function Home() {
                           bg-[#E74040]
                           w-12
                           mx-start
-                          my-3">
+                          my-3
+                          cursor-pointer">
             </div>
 
-            <p className="text-start text-sm">
+            <p className="text-start
+                          text-sm
+                          cursor-pointer">
               The gradual accumulation of information about atomic and small-scale behaviour...
             </p>
           
@@ -180,18 +193,21 @@ export default function Home() {
                           w-full
                           sm:w-[280px]
                           md:w-[300px]
-                          lg:w-[328px]">
+                          lg:w-[328px]
+                          cursor-pointer">
 
             <div className="w-16
                             h-16 rounded-xl
                             bg-[#B9EAA8]
                             mx-start
-                            mb-4">
+                            mb-4
+                            cursor-pointer">
             </div>
 
             <h2 className="font-bold
                           text-start
-                          mt-4">
+                          mt-4
+                          cursor-pointer">
             2,769 Online Courses
             </h2>
 
@@ -199,10 +215,13 @@ export default function Home() {
                           bg-[#E74040]
                           w-12
                           mx-start
-                          my-3">
+                          my-3
+                          cursor-pointer">
             </div>
 
-            <p className="text-start text-sm">
+            <p className="text-start
+                          text-sm
+                          cursor-pointer">
               The gradual accumulation of information about atomic and small-scale behaviour...
             </p>
           </div>
@@ -216,20 +235,34 @@ export default function Home() {
                           w-full
                           sm:w-[280px]
                           md:w-[300px]
-                          lg:w-[328px]">
+                          lg:w-[328px]
+                          cursor-pointer">
 
             <div className="w-16
                             h-16 rounded-xl 
                             bg-white 
                             mx-start 
-                            mb-4">
+                            mb-4
+                            cursor-pointer">
             </div>
 
-            <h2 className="font-bold text-start mt-4">Training Courses</h2>
+            <h2 className="font-bold
+                          text-start
+                          mt-4
+                          cursor-pointer">
+            Training Courses
+            </h2>
 
-            <div className="h-[2px] bg-white w-12 mx-start my-3"></div>
+            <div className="h-[2px
+                          bg-white
+                            w-12
+                            mx-start
+                            my-3
+                            cursor-pointer"></div>
 
-            <p className="text-start text-sm">
+            <p className="text-start
+                          text-sm
+                          cursor-pointer">
               The gradual accumulation of information about atomic and small-scale behaviour...
             </p>
 
