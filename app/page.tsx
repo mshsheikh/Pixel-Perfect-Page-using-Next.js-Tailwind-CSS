@@ -113,7 +113,8 @@ export default function Home() {
 
             <button className="bg-[#35A6F0]
                               text-white
-                              px-11 py-4
+                              px-11
+                              py-4
                               rounded
                               hover:bg-[#5b5f62]">
                               Get Quote Now
@@ -122,7 +123,7 @@ export default function Home() {
             <button className="border
                               border-[#35A6F0]
                               text-[#35A6F0]
-                              px-10
+                              px-11
                               py-4
                               rounded
                             hover:bg-[#5b5f62]
