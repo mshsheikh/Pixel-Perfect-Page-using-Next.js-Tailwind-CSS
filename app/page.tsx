@@ -253,8 +253,8 @@ export default function Home() {
             Training Courses
             </h2>
 
-            <div className="h-[2px
-                          bg-white
+            <div className="h-[2px]
+                            bg-white
                             w-12
                             mx-start
                             my-3
